@@ -11,7 +11,7 @@ html.unlogined .logined-show{display:none}
 html.logined .logined-show{display:block}
 html.logined .unlogined-show{display:none}
 body{color:#333;font-size:16px;height:100%}
-#intro-page{background:#eee;height:100%;color:#fff;font-size:17px;}
+#intro-page{background:rgb(255, 255, 255);height:100%;color:#fff;font-size:17px;}
 #intro-page section{background-color:#08bcd9;width:700px;height:510px;padding:40px 50px;position:absolute;top:50%;left:50%;margin:-255px 0 0 -350px;}
 #intro-page section h1{font-size:40px;margin-bottom:20px}
 #intro-page section p{margin-top:10px;}
