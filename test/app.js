@@ -33,7 +33,7 @@ describe('GET /api', () => {
   });
 });
 
-describe('GET /contact', () => {
+describe('GET /xchange', () => {
   it('should return 200 OK', (done) => {
     request(app)
       .get('/contact')
