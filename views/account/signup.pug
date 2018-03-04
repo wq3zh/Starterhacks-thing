@@ -6,6 +6,14 @@ block content
   form.form-horizontal(id='signup-form', method='POST')
     input(type='hidden', name='_csrf', value=_csrf)
     .form-group
+      label.col-sm-3.control-label(for="firstName") First Name
+      .col-sm-7
+        input.from-control(type='text', name='firstName', id='firstName', placeholder='First Name', autofocus, required)
+    .form-group
+      label.col-sm-3.control-label(for="lastName") Last Name
+      .col-sm-7
+        input.form-control(type='text', name='lastName', id='lastName', placeholder='Last Name', autofocus, required)
+    .form-group
       label.col-sm-3.control-label(for='email') Email
       .col-sm-7
         input.form-control(type='email', name='email', id='email', placeholder='Email', autofocus, required)
